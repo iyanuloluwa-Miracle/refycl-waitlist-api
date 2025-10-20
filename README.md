@@ -3,7 +3,7 @@
 
 ## 🌐 Live Deployment
 
-You can access the deployed API here: [https://refycl-waitlist-api.pxxl.click](https://refycl-waitlist-api.pxxl.click)
+You can access the deployed API here: [https://refycl.onrender.com](https://refycl.onrender.com/health)
 
 
 ## 🚀 Features
