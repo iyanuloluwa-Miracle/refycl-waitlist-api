@@ -9,7 +9,7 @@ import apiRoutes from './routes/routes';
 dotenv.config();
 
 const app: Application = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 // --- Middlewares ---
 // Enable CORS for all routes (allows your frontend to connect)
