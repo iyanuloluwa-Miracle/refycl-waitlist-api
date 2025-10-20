@@ -5,7 +5,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.waitlistSchema = void 0;
 const joi_1 = __importDefault(require("joi"));
-// Define the allowed values for the checkboxes
 const allowedNeeds = ['Petrol for Vehicle', 'Generator Fuel', 'Cooking Gas'];
 exports.waitlistSchema = joi_1.default.object({
     fullName: joi_1.default.string().min(3).required(),

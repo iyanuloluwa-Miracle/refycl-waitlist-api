@@ -12,7 +12,7 @@ exports.AppDataSource = new typeorm_1.DataSource({
     type: 'postgres',
     url: process.env.DATABASE_URL,
     entities: [entities_1.WaitlistEntry],
-    synchronize: true, // Only for development - set to false in production
+    synchronize: true,
     logging: process.env.NODE_ENV === 'development',
     ssl: {
         rejectUnauthorized: false

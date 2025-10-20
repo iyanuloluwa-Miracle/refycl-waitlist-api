@@ -12,14 +12,12 @@ const routes_1 = __importDefault(require("./routes/routes"));
 // Load environment variables
 dotenv_1.default.config();
 const app = (0, express_1.default)();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 // --- Middlewares ---
 // Enable CORS for all routes (allows your frontend to connect)
 app.use((0, cors_1.default)());
-// Parse incoming JSON payloads (so we can read req.body)
 app.use(express_1.default.json());
 // --- API Routes ---
-// Mount all our routes under the /api prefix
 app.use('/api', routes_1.default);
 // Simple health-check route
 app.get('/health', (req, res) => {
