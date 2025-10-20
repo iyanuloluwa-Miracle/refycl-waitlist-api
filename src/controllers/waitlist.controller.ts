@@ -13,7 +13,7 @@ export const joinWaitlist = async (req: Request, res: Response) => {
       // If validation fails, send a 400 Bad Request response
       return res.status(400).json({ 
         message: 'Validation failed', 
-        details: error.details[0].message 
+        details: error.details?.[0]?.message || 'Invalid data provided'
       });
     }
 
