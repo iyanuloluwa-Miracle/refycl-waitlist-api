@@ -1,6 +1,10 @@
+
 # Waitlist API
 
-A robust RESTful API built with Node.js, Express, TypeScript, and TypeORM for managing waitlist entries for fuel and energy services.
+## 🌐 Live Deployment
+
+You can access the deployed API here: [https://refycl-waitlist-api.pxxl.click](https://refycl-waitlist-api.pxxl.click)
+
 
 ## 🚀 Features
 
