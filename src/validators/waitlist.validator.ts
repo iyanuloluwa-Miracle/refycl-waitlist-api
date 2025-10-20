@@ -1,6 +1,6 @@
 import Joi from 'joi';
 
-// Define the allowed values for the checkboxes
+
 const allowedNeeds = ['Petrol for Vehicle', 'Generator Fuel', 'Cooking Gas'];
 
 export const waitlistSchema = Joi.object({

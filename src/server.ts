@@ -15,11 +15,9 @@ const PORT = process.env.PORT || 5000;
 // Enable CORS for all routes (allows your frontend to connect)
 app.use(cors());
 
-// Parse incoming JSON payloads (so we can read req.body)
 app.use(express.json());
 
 // --- API Routes ---
-// Mount all our routes under the /api prefix
 app.use('/api', apiRoutes);
 
 // Simple health-check route
